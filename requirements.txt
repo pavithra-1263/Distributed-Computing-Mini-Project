@@ -1,0 +1,12 @@
+# Core project dependencies for Multi-Cloud Deployment Manager with Failover Support
+
+# No external libraries are required for the base simulation.
+# The following packages are optional for enhancements and visualization.
+
+# Optional (for extended features):
+boto3               # AWS SDK for Python
+azure-mgmt-resource # Azure Resource Management SDK
+google-cloud-storage # Google Cloud SDK
+requests            # For API calls (if added later)
+streamlit           # For creating a GUI dashboard
+matplotlib          # For visualizing health monitoring
