@@ -30,3 +30,32 @@ It supports **SDG 9: Industry, Innovation, and Infrastructure**, focusing on bui
 ```bash
 git clone https://github.com/your-username/MultiCloud-Deployment-Manager.git
 cd MultiCloud-Deployment-Manager
+
+### 2️⃣ Run the Script
+```bash
+python multi_cloud_manager.py
+
+###you will see output like
+
+🚀 Starting Multi-Cloud Deployment with Failover Support
+
+✅ MyWebApp successfully deployed on AWS cloud.
+🌐 Active Cloud: AWS
+
+🩺 Health Check Cycle 1
+✅ AWS cloud healthy.
+🩺 Health Check Cycle 2
+❌ AWS failed! Triggering failover...
+✅ MyWebApp successfully deployed on Azure cloud.
+🌐 Active Cloud: Azure
+
+###📊 SDG 9 Alignment
+
+This project supports Sustainable Development Goal 9 by:
+
+Building resilient infrastructure
+
+Promoting innovation in cloud systems
+
+Ensuring continuous service availability
+
